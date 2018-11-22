@@ -47,6 +47,10 @@ app.get('/about', (req, res) => {
     });
 });
 
+app.get('/portfolio', (req, res) => {
+
+});
+
 app.get('/bad', (req, res) => {
     res.send({
         error: 'Unable to fulfill your request'
